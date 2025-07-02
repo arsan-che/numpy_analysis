@@ -18,3 +18,14 @@ print(one_egg)
 # Select the 3rd recipe (index 2), assumed to be cookies
 cookies = recipes[2, :]
 print(cookies)
+# Double the cupcake recipe to make a double batch
+double_batch = cupcakes * 2
+
+# Add ingredients from cookies and the double cupcake batch to create a grocery list
+grocery_list = cookies + double_batch
+
+# Print the double cupcake batch
+print(double_batch)
+
+# Print the combined grocery list
+print(grocery_list)
